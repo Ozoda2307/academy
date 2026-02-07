@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #FFF0D2;
+    border-radius: 15px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 30px 30px;
+    border-bottom: 1px solid #b6b2b4;
+}
+header .menu i{
+    display: none;
+}
+header p{
+    padding: 20px 30px 10px 30px;
+    font-weight: bold;
+    color: #11090D;
+    font-size: 32px;
+}
+header span{
+    color: #FF7132;
+}
+header .tanlash{
+    border: none;
+    color: #11090D;
+    font-weight: bold;
+    background: transparent;
+}
+header nav{
+    width: 50%;
+}
+header a{
+    color: #11090D;
+    font-weight: bold;
+}
+header nav ul{
+    padding: 30px 50px 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+header .sing-in{
+    width: 50%;
+}
+header .sing-in ul{
+    padding: 30px 50px 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    gap: 0px;
+    right: 0;
+}
+header .sing-in ul li a{
+    padding: 8px 15px;
+}
+header .sing-in ul li a:hover{
+    border-radius: 27px;
+    background: #FF7132;
+    color: #f7f4f4;
+    padding: 5px 15px;
+}
+
+
+@media screen and (max-width: 1400px){
+    header nav ul{
+        padding: 30px 40px 10px 40px;
+        gap: 30px;
+    }
+    header nav{
+        width: 55%;
+    }
+    header .sing-in{
+        width: 40%;
+    }
+    
+}
+@media screen and (max-width: 1200px){
+    header nav ul{
+        padding: 30px 20px 10px 40px;
+        gap: 30px;
+    }
+    header nav{
+        width: 55%;
+    }
+    header .sing-in{
+        width: 40%;
+    }
+
+}
+@media screen and (max-width: 992px){
+    header nav ul{
+        padding: 30px 20px 10px 20px;
+        gap: 30px;
+    }
+    header nav{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    header nav{
+        display: none;
+    }
+    header .menu i{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 576px){
+    header nav{
+        display: none;
+    }
+    header .menu i{
+        display: none;
+    }
+    header .sing-in .m375 i{
+        display: none;
+    }
+    header .sing-in ul{
+        padding: 30px 0px 10px 50px;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    header nav{
+        display: none;
+    }
+    header .sing-in{
+        display: none;
+    }
+    header .menu i{
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        font-size: 24px;
+    }
+
+}
