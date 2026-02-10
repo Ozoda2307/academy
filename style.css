@@ -13,7 +13,7 @@ header{
     width: 100%;
     height: 100px;
     display: flex;
-    padding: 30px 30px;
+    padding: 15px 30px;
     border-bottom: 1px solid #b6b2b4;
 }
 header .menu i{
@@ -68,6 +68,463 @@ header .sing-in ul li a:hover{
     color: #f7f4f4;
     padding: 5px 15px;
 }
+.contener{
+    width: 100%;
+    height: 700px;
+}
+.contener img{
+    position: absolute;
+    top: 170px;
+    left: 550px;
+}
+.contener .welcome{
+    width: 193px;
+    border-radius: 24px;
+    background: #FFFFFF;
+    margin: 30px 30px;
+    border: none;
+}
+.contener h4{
+    font-size: 16px;
+    padding: 5px 15px;
+}
+h2{
+    width: 611px;
+    height: 225px;
+    font-size: 64px;
+    font-weight: bold;
+}
+.contener h2{
+    padding: 30px 50px 30px 50px;
+}
+.contener h2 span{
+    color: #7B5896;
+}
+.contener h2 .orang{
+    color: #FF7132;
+}
+.contener h6{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0;
+    padding: 30px 50px 30px 50px;
+}
+.contener h6 span{
+    color: #7B5896;
+}
+.contener p{
+    width: 576px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7c7b7b;
+    padding: 0 50px 30px 70px;
+}
+.contener ul{
+    display: flex;
+    padding: 30px 50px 30px 50px;
+    gap: 8px;
+}
+.contener ul li a{
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #7B5896;
+}
+.contener ul li a:hover{
+    border-radius: 100px;
+    background: #7B5896;
+    color: #ffffff;
+}
+.contener .hrf{
+    width: 80%;
+    padding: 30px 50px 30px 70px;
+    display: flex;
+    gap: 16px;
+}
+.contener .hrf a{
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background: #FF7132;
+    color: #FFFFFF;
+}
+.statistika{
+    width: 80%;
+    position: absolute;
+    left: 250px;
+    top: 750px;
+}
+.statistika ul{
+    background: #FFFFFF;
+    border-radius: 24px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+    box-shadow: 1px 1px 1px 1px rgba(228, 227, 227, 0.75); 
+}
+.statistika ul a{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+.statistika ul li{
+    display: flex;
+}
+.statistika ul a i{
+    font-size: 20px;
+}
+.statistika ul .green{
+    background: #30B338;
+}
+.statistika ul .oreng{
+    background: #FF7132;
+}
+.statistika ul .blurs{
+    background: #EF516C;
+}
+.statistika ul  h5{
+    font-size: 32px;
+    padding: 0 15px;
+}
+.statistika ul span{
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+}
+.popular{
+    width: 100%;
+    background-color: #FFFBF8;
+    margin-top: 100px;
+}
+.popular h2{
+    display: flex;
+    align-items: center;
+    margin-left: 350px;
+    padding-top: 100px;
+}
+.design ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.design ul li{
+    display: flex;
+}
+.design ul a{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: #FFE6DA;
+    color: #070707;
+    padding: 15px 30px;
+}
+.design ul a i{
+    color: #FF7132;
+}
+.design ul a:hover{
+    background-color: #FF7132;
+    color: #FFE6DA;
+}
+.design ul a i:hover{
+    color: #FFE6DA;
+}
+.design ul img{
+    width: 16px;
+    height: 16px;
+    padding-top: 3px;
+}
+.popular .cortinki{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.popular .cortinki img{
+    width: 400px;
+}
+.about {
+    width: 100%;
+    display: flex;
+    background-color: #FFF0D2;
+}
+.about .rasm{
+    width: 48%;
+}
+.about .rasm img{
+    width: 630px;
+    padding: 100px 20px 20px 20px;
+}
+.about .make{
+    width: 48%;
+    padding: 50px 20px 20px 100px;
+}
+.about .make h3{
+    color: #FF7132;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 25px 0;
+}
+.about .make h2{
+    width: 416px;
+    font-size: 45px;
+    padding: 20px 0;
+}
+.about .make ul li{
+    display: flex;
+    padding: 20px 0;
+}
+.about .make ul a{
+    width: 45px;
+    height: 42px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about .make ul .pink{
+    background-color: #EF516C;
+}
+.about .make ul .oreng{
+    background-color: #FF7132;
+}
+.about .make ul .green{
+    background-color: #30B338;
+}
+.about .make ul h5{
+    font-size: 24px;
+    padding-left: 20px;
+}
+.about .make ul span{
+    width: 300px;
+    display: block;
+    font-size: 16px;
+    color: #b1abab;
+    font-weight: 400;
+}
+.about .make button{
+    width: 155px;
+    border-radius: 100px;
+    border: none;
+    background-color: #FF7132;
+    color: #ffffff;
+    padding: 15px 20px;
+    margin: 30px 0 30px 0;
+}
+.prising{
+    width: 100%;
+    background-color: #FFFBF8;
+}
+.prising h2{
+    padding-top: 100px;
+    margin-left: 500px;
+}
+.prising .tochk {
+    margin-left: 480px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.prising .tochk p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.prising .tochk button{
+    border-radius: 50px;
+    width: 86px;
+    height: 32px;
+    background-color: #2D2D2D;
+    position: relative;
+}
+.prising .tochk .gren{
+    width: 26px;
+    height: 26px;
+    border-radius: 100%;
+    background-color: #4ADB61;
+    position: absolute;
+    top: 1px;
+    right: 0;
+    bottom: 0;
+}
+.prising .get-bas{
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+}
+.prising .get-bas .icon{
+    display: none;
+}
+.prising .get-bas .basic{
+    border-radius: 16px;
+    width: 400px;
+    height: 498px;
+    background-color: #FF7132;
+}
+.prising .get-bas  h4{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 30px;
+}
+.prising .get-bas  h3{
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 0 30px;
+}
+.prising .get-bas  p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 30px 30px 10px 30px;
+}
+.prising .get-bas  ul li{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 8px 35px;
+}
+.prising .get-bas button{
+    border-radius: 16px;
+    padding: 10px 30px;
+    border-color: #FFFFFF;
+    color: #11090D;
+    bottom: none;
+    margin: 30px;
+}
+.prising .get-bas .Ultimate{
+    border-radius: 16px;
+    width: 400px;
+    height: 498px;
+    background-color: #30B338;
+}
+.prising .get-bas .standard{
+    border-radius: 16px;
+    width: 400px;
+    height: 498px;
+    background-color: #EF516C;
+}
+.get-tuoch{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.get-tuoch .onter{
+    width: 90%;
+    height: 340px;
+    border-radius: 50px;
+    background-color: #7B5896;
+}
+.get-tuoch .onter h3{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.get-tuoch .onter p{
+    width: 812px;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 250px;
+}
+.get-tuoch .onter a{
+    width: 510px;
+    height: 67px;
+    border-radius: 100px;
+    color: #0000;
+    color: #000;
+    position: relative;
+    top: 30px;
+    left: 400px;
+    background-color: #FFFFFF;
+    padding: 20px 200px 20px 20px;
+}
+.get-tuoch .onter button{
+    border-radius: 100px;
+    padding: 10px 20px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #7B5896;
+    position: absolute;
+    top: 8px;
+    right: 4px;
+    bottom: 8px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.navbar p{
+    padding: 20px 30px 10px 120px;
+    font-weight: bold;
+    color: #11090D;
+    font-size: 32px;
+}
+.navbar span{
+    color: #FF7132;
+}
+.navbar .hrf{
+    width: 80%;
+    padding: 30px 50px 30px 30px;
+    display: flex;
+    gap: 16px;
+    margin-left: 150px;
+}
+.navbar .hrf a{
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background: #7B5896;
+    color: #FFFFFF;
+}
+.navbar .blog{
+    width: 50%;
+    display: flex;
+    padding: 30px 50px 30px 200px;
+    gap: 20px;
+}
+.navbar .blog a{
+    width: 70px;
+    color: #11090D;
+}
+.navbar .plane{
+    display: none;
+}
+footer{
+    border-top: 1px solid #b1abab;
+    padding: 20px;
+}
+footer a{
+    color: #333333;
+    padding: 20px;
+    margin-left: 500px;
+}
 
 
 @media screen and (max-width: 1400px){
@@ -81,7 +538,79 @@ header .sing-in ul li a:hover{
     header .sing-in{
         width: 40%;
     }
-    
+    .statistika{
+        width: 80%;
+        position: absolute;
+        left: 100px;
+        top: 900px;
+    }
+    .statistika ul{
+        width: 100%;
+        padding: 30px 50px;
+    }
+    .popular{
+        margin-top: 150px;
+    }
+    .popular h2{
+        width: 80%;
+        margin-top: 10px;
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+    .popular .cortinki{
+        padding: 0px;
+    }
+    .popular .design ul{
+        gap: 10px;
+        margin-left: 0px;
+    }
+    .popular .design ul a{
+        padding: 10px 20px;
+    }
+    .popular .cortinki{
+        gap: 30px;
+        overflow: hidden;
+    }
+    .popular .cortinki img{
+        width: 300px;
+        object-fit: cover;
+    }
+    .about .rasm{
+        width: 60%;
+    }
+    .about h2{
+        width: 80%;
+        padding-bottom: 0;
+        height: 170px;
+        margin-left: 0;
+        font-size: 45px;
+    }
+    .about .make{
+        width: 100%;
+        padding-left: 30px;
+    }
+    .about ul{
+        width: 370px;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+    .navbar p{
+        font-size: 50px;
+        padding: 20px 30px 10px 100px;
+    }
+    .navbar .blog{
+        padding-left: 100px;
+        padding-bottom: 10px;
+        padding-top: 40px;
+    }
+    .navbar .hrf{
+        margin-left: 100px;
+        padding: 20px;
+    }
+    .navbar .plane{
+        display: none;
+    }
 }
 @media screen and (max-width: 1200px){
     header nav ul{
@@ -94,7 +623,107 @@ header .sing-in ul li a:hover{
     header .sing-in{
         width: 40%;
     }
-
+    .contener img{
+        width: 550px;
+    }
+    .statistika{
+        width: 90%;
+        position: absolute;
+        left: 50px;
+        top: 900px;
+    }
+    .statistika ul{
+        width: 100%;
+        padding: 30px 70px;
+    }
+    .popular{
+        margin-top: 150px;
+    }
+    .popular h2{
+        width: 80%;
+        margin-top: 10px;
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+    .popular .cortinki{
+        padding: 0px;
+    }
+    .popular .design ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin-left: 100px;
+    }
+    .popular .design ul a{
+        padding: 10px 20px;
+    }
+    .popular .cortinki{
+        gap: 20px;
+        overflow: hidden;
+    }
+    .popular .cortinki img{
+        width: 300px;
+        object-fit: cover;
+    }
+    .about .rasm{
+        width: 60%;
+    }
+    .about h2{
+        width: 80%;
+        padding-bottom: 0;
+        height: 170px;
+        margin-left: 0;
+        font-size: 45px;
+    }
+    .about .make{
+        width: 100%;
+        padding-left: 30px;
+    }
+    .about ul{
+        width: 370px;
+    }
+    .get-tuoch .onter p{
+        width: 100%;
+        padding: 50px 100px;
+    }
+    .get-tuoch .onter a{
+        width: 210px;
+        height: 67px;
+        border-radius: 100px;
+        color: #0000;
+        color: #000;
+        position: relative;
+        top: 30px;
+        left: 350px;
+        background-color: #FFFFFF;
+        padding: 15px 100px 15px 15px;
+    }
+    .get-tuoch .onter button{
+        width: 90px;
+        font-size: 10px;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+    .navbar p{
+        font-size: 50px;
+        padding: 20px 30px 10px 100px;
+    }
+    .navbar .blog{
+        padding-left: 100px;
+        padding-bottom: 10px;
+        padding-top: 40px;
+    }
+    .navbar .hrf{
+        margin-left: 0px;
+        padding: 20px 70px;
+    }
+    .navbar .plane{
+        display: none;
+    }
+    footer a{
+        margin-left: 470px;
+    }
 }
 @media screen and (max-width: 992px){
     header nav ul{
@@ -104,7 +733,138 @@ header .sing-in ul li a:hover{
     header nav{
         display: none;
     }
-
+    .contener img{
+        display: none;
+    }
+    .contener h2{
+        width: 70%;
+        font-size: 70px;
+        margin-left: 70px;
+        padding-top: 0;
+    }
+    .contener h6{
+        margin-left: 70px;
+    }
+    .contener p{
+        margin-left: 70px;
+    }
+    .contener ul{
+        margin-left: 70px;
+    }
+    .contener .hrf{
+        margin-left: 70px;
+    }
+    .statistika{
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        top: 900px;
+    }
+    .statistika ul{
+        width: 100%;
+        padding: 20px 50px;
+    }
+    .popular{
+        margin-top: 150px;
+    }
+    .popular h2{
+        width: 80%;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    .popular .cortinki{
+        padding: 0px;
+    }
+    .popular .design ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin-left: 80px;
+    }
+    .popular .design ul a{
+        padding: 10px 20px;
+    }
+    .popular .cortinki{
+        overflow: hidden;
+    }
+    .popular .cortinki img{
+        width: 300px;
+        object-fit: cover;
+    }
+    .about .rasm{
+        width: 10px;
+    }
+    .about .rasm img{
+        display: none;
+    }
+    .about h2{
+        width: 80%;
+        padding-bottom: 0;
+        height: 170px;
+        margin-left: 0;
+        font-size: 50px;
+    }
+    .about .make{
+        width: 100%;
+        padding-left: 30px;
+    }
+    .about ul{
+        width: 370px;
+    }
+    .prising h2{
+        width: 70%;
+        margin-left: 350px;
+        height: 150px;
+    }
+    .prising .tochk {
+        margin-left: 320px;
+    }
+    .prising .get-bas {
+        overflow: hidden;
+    }
+    .get-tuoch .onter p{
+        width: 100%;
+        padding: 30px 70px;
+    }
+    .get-tuoch .onter a{
+        width: 210px;
+        height: 67px;
+        border-radius: 100px;
+        color: #0000;
+        color: #000;
+        position: relative;
+        top: 30px;
+        left: 280px;
+        background-color: #FFFFFF;
+        padding: 15px 100px 15px 15px;
+    }
+    .get-tuoch .onter button{
+        width: 90px;
+        font-size: 10px;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+    .navbar p{
+        font-size: 50px;
+        padding: 20px 30px 10px 60px;
+    }
+    .navbar .blog{
+        padding-left: 50px;
+        padding-bottom: 10px;
+        padding-top: 40px;
+    }
+    .navbar .hrf{
+        margin-left: 0;
+        padding: 20px;
+    }
+    .navbar .plane{
+        display: none;
+    }
+    footer a{
+        margin-left: 370px;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -114,7 +874,144 @@ header .sing-in ul li a:hover{
     header .menu i{
         display: none;
     }
-    
+    .contener img{
+        display: none;
+    }
+    .contener h2{
+        margin-left: 70px;
+        padding-left: 0;
+    }
+    .contener h6{
+        margin-left: 70px;
+        padding-left: 0;
+    }
+    .contener p{
+        margin-left: 70px;
+        padding-left: 0;
+    }
+    .contener ul{
+        margin-left: 70px;
+        padding-left: 0;
+    }
+    .contener .hrf{
+        margin-left: 70px;
+        padding-left: 0;
+    }
+    .statistika{
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        top: 900px;
+    }
+    .statistika ul{
+        width: 100%;
+    }
+    .popular{
+        margin-top: 150px;
+    }
+    .popular h2{
+        width: 80%;
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        padding-top: 10px;
+    }
+    .popular .cortinki{
+        padding: 0px;
+    }
+    .popular .design ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        margin-left: 30px;
+    }
+    .popular .design ul a{
+        padding: 10px 20px;
+    }
+    .popular .cortinki{
+        overflow: hidden;
+    }
+    .popular .cortinki img{
+        width: 300px;
+        object-fit: cover;
+    }
+    .about .rasm{
+        width: 10px;
+    }
+    .about .rasm img{
+        display: none;
+    }
+    .about h2{
+        width: 80%;
+        padding-bottom: 0;
+        height: 170px;
+        margin-left: 0;
+        font-size: 45px;
+    }
+    .about .make{
+        width: 100%;
+        padding-left: 30px;
+    }
+    .about ul{
+        width: 370px;
+    }
+    .prising h2{
+        width: 70%;
+        height: 120px;
+        margin-left: 220px;
+        padding-top: 50px;
+    }
+    .prising .tochk {
+        margin-left: 220px;
+    }
+    .prising .get-bas {
+        overflow: hidden;
+    }
+    .prising .get-bas .icon{
+        display: none;
+    }
+    .get-tuoch .onter p{
+        width: 100%;
+        padding-left: 50px;
+    }
+    .get-tuoch .onter a{
+        width: 210px;
+        height: 67px;
+        border-radius: 100px;
+        color: #0000;
+        color: #000;
+        position: relative;
+        top: 30px;
+        left: 180px;
+        background-color: #FFFFFF;
+        padding: 15px 100px 15px 15px;
+    }
+    .get-tuoch .onter button{
+        width: 90px;
+        font-size: 10px;
+    }
+    .navbar{
+        display: block;
+    }
+    .navbar p{
+        font-size: 50px;
+        padding: 20px 30px 10px 60px;
+        margin-left: 200px;
+    }
+    .navbar .blog{
+        padding-left: 30px;
+        margin-left: 200px;
+        margin-top: 0;
+    }
+    .navbar .hrf{
+        margin-left: 250px;
+    }
+    .navbar .plane{
+        display: none;
+    }
+    footer a{
+        margin-left: 220px;
+    }
 }
 
 @media screen and (max-width: 576px){
@@ -130,7 +1027,165 @@ header .sing-in ul li a:hover{
     header .sing-in ul{
         padding: 30px 0px 10px 50px;
     }
-
+    .contener{
+        height: 650px;
+    }
+    .contener img{
+        display: none;
+    }
+    .contener h2{
+        width: 500px;
+        font-size: 46px;
+        margin-left: 20px;
+    }
+    .contener h6{
+        margin: 0;
+        margin-left: 20px;
+    }
+    .contener p{
+        width: 70%;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .contener ul{
+        margin-left: 0px;
+    }
+    .contener .hrf{
+        margin-left: 20px;
+    }
+    .statistika{
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        top: 820px;
+    }
+    .statistika ul{
+        width: 100%;
+    }
+    .statistika ul a{
+        width: 40px;
+        height: 40px;
+    }
+    .statistika ul a i{
+        font-size: 15px;
+    }
+    .statistika ul  h5{
+        font-size: 24px;
+        padding: 0 8px;
+    }
+    .statistika ul span{
+        display: block;
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .popular{
+        margin-top: 120px;
+    }
+    .popular h2{
+        width: 80%;
+        font-size: 50px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding-top: 0;
+    }
+    .popular .cortinki{
+        padding: 0px;
+    }
+    .popular .design ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        margin-left: 8px;
+    }
+    .popular .design ul a{
+        padding: 10px 20px;
+    }
+    .popular .cortinki{
+        overflow: hidden;
+    }
+    .popular .cortinki img{
+        width: 300px;
+        object-fit: cover;
+    }
+    .about .rasm img{
+        display: none;
+    }
+    .about h2{
+        width: 80%;
+        padding-bottom: 0;
+        height: 170px;
+        margin-left: 0;
+        font-size: 40px;
+    }
+    .about .make{
+        width: 100%;
+        padding-left: 30px;
+    }
+    .about ul{
+        width: 370px;
+    }
+    .prising h2{
+        width: 70%;
+        height: 150px;
+        margin-left: 100px;
+    }
+    .prising .tochk {
+        margin-left: 120px;
+    }
+    .prising .get-bas .standard{
+        margin-left: 0px;
+    }
+    .prising .get-bas .basic{
+        display: none;
+    }
+    .prising .get-bas .Ultimate{
+        display: none;
+    }
+    .prising .get-bas .icon{
+        display: block;
+        color: #9a9a9a;
+        font-size: 30px;
+    }
+    .get-tuoch .onter p{
+        width: 100%;
+        padding: 30px;
+    }
+    .get-tuoch .onter a{
+        width: 210px;
+        height: 67px;
+        border-radius: 100px;
+        color: #0000;
+        color: #000;
+        position: relative;
+        top: 30px;
+        left: 100px;
+        background-color: #FFFFFF;
+        padding: 15px 100px 15px 15px;
+    }
+    .get-tuoch .onter button{
+        width: 90px;
+        font-size: 10px;
+    }
+    .navbar{
+        display: flex;
+    }
+    .navbar p{
+        padding: 20px 30px 10px 60px;
+        margin-left: 0;
+    }
+    .navbar .blog{
+        display: none;
+    }
+    .navbar .hrf{
+        margin-left: 50px;
+    }
+    .navbar .plane{
+        display: none;
+    }
+    footer a{
+        margin-left: 150px;
+    }
 }
 
 @media screen and (max-width: 375px){
@@ -147,5 +1202,170 @@ header .sing-in ul li a:hover{
         right: 50px;
         font-size: 24px;
     }
-
+    .contener{
+        width: 600px;
+    }
+    .contener img{
+        display: none;
+    }
+    .contener h2{
+        width: 350px;
+        font-size: 44px;
+        margin-left: 20px;
+    }
+    .contener h6{
+        margin-left: 20px;
+    }
+    .contener p{
+        width: 350px;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .contener ul{
+        padding: 10px 20px;
+        margin-left: 20px;
+    }
+    .contener .hrf{
+        margin-left: 20px;
+    }
+    .statistika{
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        top: 800px;
+    }
+    .statistika ul{
+        width: 100%;
+    }
+    .statistika ul a{
+        width: 30px;
+        height: 30px;
+    }
+    .statistika ul a i{
+        font-size: 10px;
+    }
+    .statistika ul  h5{
+        font-size: 24px;
+        padding: 0 8px;
+    }
+    .statistika ul span{
+        display: block;
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .popular{
+        margin-top: 50px;
+    }
+    .popular h2{
+        width: 70%;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        padding-top: 0;
+    }
+    .popular .cortinki{
+        padding: 0px;
+    }
+    .popular .design ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        margin-left: 8px;
+    }
+    .popular .design ul a{
+        padding: 10px 20px;
+    }
+    .popular .cortinki{
+        overflow: hidden;
+    }
+    .popular .cortinki img{
+        width: 300px;
+        object-fit: cover;
+    }
+    .about{
+        width: 100%;
+    }
+    .about .rasm img{
+        display: none;
+    }
+    .about .make h2{
+        width: 70%;
+        padding-bottom: 0;
+        height: 200px;
+        margin-left: 0;
+        font-size: 40px;
+    }
+    .about .make{
+        width: 100%;
+        padding-left: 30px;
+    }
+    .about ul{
+        width: 370px;
+    }
+    .prising h2{
+        width: 80%;
+        height: 100px;
+        margin-left: 30px;
+        padding-top: 30px;
+    }
+    .prising .tochk {
+        margin-left: 30px;
+    }
+    .prising .get-bas .standard{
+        margin-left: 0px;
+    }
+    .prising .get-bas .basic{
+        display: none;
+    }
+    .prising .get-bas .Ultimate{
+        display: none;
+    }
+    .prising .get-bas .icon{
+        display: block;
+        color: #9a9a9a;
+        font-size: 30px;
+    }
+    .get-tuoch .onter p{
+        width: 250px;
+        padding-left: 5px;
+    }
+    .get-tuoch .onter a{
+        width: 210px;
+        height: 67px;
+        border-radius: 100px;
+        color: #0000;
+        color: #000;
+        position: relative;
+        top: 30px;
+        left: 28px;
+        background-color: #FFFFFF;
+        padding: 15px 100px 15px 15px;
+    }
+    .get-tuoch .onter button{
+        width: 90px;
+        font-size: 10px;
+    }
+    .navbar{
+        display: flex;
+    }
+    .navbar p{
+        padding: 10px 15px 5px 0px;
+        margin-left: 20px;
+    }
+    .navbar .blog{
+        display: none;
+    }
+    .navbar .hrf{
+        display: none;
+    }
+    .navbar .plane{
+        display: block;
+        margin-right: 50px;
+        font-size: 24px;
+        padding: 15px 10px 10px 0px;
+        color: #7B5896;
+    }
+    footer a{
+        margin-left: 70px;
+    }
 }
